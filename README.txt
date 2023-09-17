@@ -1,30 +1,59 @@
-Phantom by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# My Portfolio
 
+Welcome to my portfolio! Here, you'll find a showcase of some of my notable projects and a glimpse into my skills and expertise in web development and design. Feel free to explore each project below, watch the video demos, and check out the accompanying screenshots.
 
-This is Phantom, a simple design built around a grid of large, colorful, semi-interactive
-image tiles (of which you can have as many or as few as you like). Makes use of some
-SVG and animation techniques I've been experimenting with on that other project of mine
-you may have heard about (https://carrd.co), and includes a handy generic page for whatever.
+## Projects
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+### 1. Code Generator
 
-(* = not included)
+[![Code Generator](link_to_screenshot)](link_to_video)
 
-AJ
-aj@lkn.io | @ajlkn
+Description: A powerful code generator that simplifies development tasks.
 
+### 2. Shift Manager
 
-Credits:
+[![Shift Manager](link_to_screenshot)](link_to_video)
 
-	Demo Images:
-		Unsplash (unsplash.com)
+Description: An application for efficient shift scheduling and management.
 
-	Icons:
-		Font Awesome (fontawesome.io)
+### 3. Dental Office Manager
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+[![Dental Office Manager](link_to_screenshot)](link_to_video)
+
+Description: A comprehensive tool for managing dental patient records and appointments.
+
+### 4. Website for a Startup
+
+[![Website for a Startup](link_to_screenshot)](link_to_video)
+
+Description: A dynamic website that represents the essence of a startup company.
+
+### 5. Static e-shop Template
+
+[![Static e-shop Template](link_to_screenshot)](link_to_video)
+
+Description: A clean and responsive e-shop template perfect for online businesses.
+
+### 6. Methanization Station Supervisor
+
+[![Methanization Station Supervisor](link_to_screenshot)](link_to_video)
+
+Description: An application for monitoring and supervising a methanization station.
+
+## About Me
+
+I am a passionate web developer with a strong background in both front-end and back-end development. I enjoy creating user-friendly and visually appealing digital solutions that address real-world problems. My dedication to clean code and attention to detail reflect my commitment to delivering high-quality projects.
+
+## Contact
+
+Have a project in mind or just want to say hello? Feel free to reach out to me:
+
+**Email:** [your_email@example.com](mailto:your_email@example.com)
+
+**LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+
+I'm excited to collaborate on new ventures and discuss how I can help bring your ideas to life!
+
+---
+
+*Thank you for visiting my portfolio!* 😄
