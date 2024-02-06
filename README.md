@@ -42,6 +42,9 @@ Have a project in mind or just want to say hello? Feel free to reach out to me:
 
 I'm excited to collaborate on new ventures and discuss how I can help bring your ideas to life!
 
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
 ---
 
 *Thank you for visiting my portfolio!* 😄
