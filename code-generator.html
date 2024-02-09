@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Code Generator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="icon" href="./images/logo.png">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/carousel.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+                <header id="header">
+                    <div class="inner">
+                        <!-- Nav -->
+                        <nav>
+                            <ul>
+                                <li><a href="#menu">Menu</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+
+                <div style="position: fixed; top: 2em; left: 2em; width:50%; z-index: 10000;" class="home">
+                    <a href="index.html">< Home</a>
+                  </div>
+                  
+                <!-- Menu -->
+                    <nav id="menu">
+                        <h2>Menu</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="code-generator.html">Code Generator</a></li>
+                            <li><a href="shift-manager.html">Shift Manager</a></li>
+                            <li><a href="dental-office.html">Dental Office Manager</a></li>
+                            <li><a href="startup-site.html">Website For Startup</a></li>
+                            <li><a href="eshop.html">Static E-shop</a></li>
+                            <li><a href="methanization-supervisor.html">Methanization Station</a></li>
+                        </ul>
+                    </nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+                            <header>
+                                <br />
+                                <h1>Code Generator</h1>
+                            </header>
+                            <br />
+							<span class="image main">
+                                <video width="85%" controls="controls">
+                                    <source src="./images/code-generator/codegenerator.mp4" type="video/mp4" />
+                                </video>
+                            </span>
+
+                            <h4>Description</h4>
+							<p>
+                                This project aims to design and develop a web application containing components and their codes in an appropriate language. This application will automatically generate the skeletons of screens and add the code of its components to new screens through a simple-to-use graphical interface.
+                                The objective of this topic is to increase reliability, efficiency, and facilitate complex tasks when writing code for each screen.
+                            </p>
+                            <h4>Technologies</h4>
+							<p>
+                                ReactJS, NodeJS, ExpressJS, PostgreSQL
+                            </p>
+                    
+                    <h4>Other interfaces</h4>
+                    <!-- Container for the image gallery -->
+                    <div class="container">
+                        <!-- Full-width images with number text -->
+                        <div class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                            <img src="./images/code-generator/view-comp.PNG" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                            <img src="./images/code-generator/add-comp.PNG" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                            <img src="./images/code-generator/edit-comp.PNG" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                            <img src="./images/code-generator/delete-comp.PNG" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                            <img src="./images/code-generator/user-profile.png" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                            <img src="./images/code-generator/add-user.PNG" style="width:100%">
+                        </div>
+                    
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <!-- Image text -->
+                        <div class="caption-container">
+                        <p id="caption"></p>
+                        </div>
+                    
+                        <!-- Thumbnail images -->
+                        <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="./images/code-generator/view-comp.PNG" style="width:100%" onclick="currentSlide(1)" alt="Components List">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./images/code-generator/add-comp.PNG" style="width:100%" onclick="currentSlide(2)" alt="Add Component">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./images/code-generator/edit-comp.PNG" style="width:100%" onclick="currentSlide(3)" alt="Edit Component">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./images/code-generator/delete-comp.PNG" style="width:100%" onclick="currentSlide(4)" alt="Delete Component">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./images/code-generator/user-profile.png" style="width:100%" onclick="currentSlide(5)" alt="User Profile">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./images/code-generator/add-user.PNG" style="width:100%" onclick="currentSlide(6)" alt="Add User">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+				<!-- Footer -->
+                <footer id="footer">
+                    <div class="inner">
+                        <section>
+                            <h2>Get in touch</h2>
+                            <form onsubmit="return sendMail()">
+                                <div class="fields">
+                                    <div class="field half">
+                                        <input type="text" name="name" id="name" placeholder="Name" required/>
+                                    </div>
+                                    <div class="field half">
+                                        <input type="email" name="email" id="email" placeholder="Email" required/>
+                                    </div>
+                                    <div class="field">
+                                        <textarea name="message" id="message" placeholder="Message" required></textarea>
+                                    </div>
+                                </div>
+                                <button class="primary" type="submit">Send</button>			
+                            </form>
+                        </section>
+                        <section>
+                            <h2>Follow</h2>
+                            <ul class="icons">
+                                <li><a href="https://www.linkedin.com/in/asma-hachaichi-4a194916a/" target="_blank" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                <li><a href="mailto:hchaichiasma@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                                <li><a href="https://github.com/asma-hachaichi" target="_blank" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                            </ul>
+                        </section>
+                </footer>
+                <div class="copyright">
+                    Web Wizardry by Asma Hachaichi &copy; 2024. All rights reserved.
+                </div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/carousel.js"></script>
+            <script src="contact.js"></script>
+            <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+            </script>
+            <script type="text/javascript">
+            (function(){
+                emailjs.init("lno5vJXVhn8-gkSL1");
+            })();
+            </script>
+
+	</body>
+</html>
