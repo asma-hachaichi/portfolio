@@ -9,6 +9,36 @@
 		<link rel="icon" href="./images/logo.png">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 	</head>
+
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			}
+
+			.column1{
+			flex: 30%; /* Each column takes up 50% of the container */
+			}
+
+			.column2{
+			flex: 70%; /* Each column takes up 50% of the container */
+			padding-top: 10px;
+			padding-left: 10px;
+			}
+
+			/* Responsive layout: columns stack on top of each other instead of side by side on smaller screens */
+			@media screen and (max-width: 600px) {
+			.column1, .column2 {
+				flex: 100%;
+				text-align: center;
+			}
+			#me{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			}
+	</style>
 	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -119,11 +149,18 @@
 									</a>
 								</article>
 							</section>
-							<section id="aboutme">
+	
+							<section id="aboutme" class="tiles">
 								<h2>About me</h2>
-								<div class="two-columns-grid">
-									<div class="left"><img id="me" src="./images/me.jpg" alt="Asma Hachaichi"/></div>
-									<div class="right">Hello my name is Asma Hachaichi. I'm a web developer who's passionate, about turning ideas into functional and visually appealing experiences. With an understanding of the changing world of web technologies I enjoy creating solutions that go above and beyond expectations. My journey in web development has been an experience driven by curiosity and a dedication, to delivering excellence. I have refined my skills in both end and back end development to ensure that every project I work on seamlessly combines aesthetics and functionality.</div>
+								<div class="container">
+									<div class="column1"><img id="me" src="./images/me.jpg" alt="Asma Hachaichi"/></div>
+									<div class="column2">Hello my name is <i>Asma Hachaichi</i>. I'm a web developer who's passionate, 
+										about turning ideas into functional and visually appealing experiences. <br/>With an understanding 
+										of the changing world of web technologies, I enjoy creating solutions that go above and beyond expectations. <br/>
+										My journey in web development has been an experience driven by curiosity and a dedication, to delivering excellence.<br/> 
+										I have refined my skills in both end and back end development to ensure that every project I work on seamlessly combines 
+										aesthetics and functionality.
+									</div>
 								</div>
 							</section>
 						</div>

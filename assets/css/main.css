@@ -1462,6 +1462,8 @@ input, select, textarea {
 						}
 
 		}
+		  
+		  
 
 		@media screen and (max-width: 480px) {
 
@@ -2890,6 +2892,8 @@ input, select, textarea {
 	#aboutme{
 		padding-top: 5em;
 		padding-bottom: 2em;
+		padding-left: 0;
+		margin-left: 0;
 	}
 	
 /* Footer */
